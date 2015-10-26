@@ -1,26 +1,22 @@
-# CakePHP Application Skeleton
+# CakePHP 3 Maintenance Mode Tutorial
 
-[![Build Status](https://api.travis-ci.org/cakephp/app.png)](https://travis-ci.org/cakephp/app)
-[![License](https://poser.pugx.org/cakephp/app/license.svg)](https://packagist.org/packages/cakephp/app)
+---
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
-
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+This repository is a companion to the article that can be found @ http://t73.biz/#/cakephp-3-maintenance-mode
 
 ## Installation
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
-
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
 ```
+git clone https://github.com/t73biz/cakephp-maintenance-mode-tutorial.git```
 
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
+Go into the directory from the command line, and run composer. Details for installing composer can be found @ https://getcomposer.org/
 
-## Configuration
+```
+composer install ```
 
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+Once that is finished, you can start a local server running by the command
+
+```
+bin/cake server ```
+
+This will start an instance of the server and you can view it by default by going to http://localhost:8765/
